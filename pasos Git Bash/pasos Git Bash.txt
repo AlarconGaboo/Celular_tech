@@ -1,0 +1,51 @@
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio (master)
+$ cd '/c/Users/alarc/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION3-M6/celular tech'
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION3-M6/celular tech (master)
+$ npm init -y
+Wrote to C:\Users\alarc\OneDrive\Escritorio\PRACTIANDO HTML\MODULO6\SESION3-M6\celular tech\package.json:
+
+{
+  "name": "celular-tech",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+
+
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION3-M6/celular tech (master)
+$ npm install moment lodash
+
+added 2 packages, and audited 3 packages in 2s
+
+found 0 vulnerabilities
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION3-M6/celular tech (master)
+$ touch celular.js index.js
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION3-M6/celular tech (master)
+$ node index.js
+{
+  marca: 'Samsung',
+  modelo: 'Galaxy S21',
+  color: 'Blanco',
+  memoria: '256GB',
+  camara: '108MP',
+  fechaDeCompra: '2024-09-08'
+}
+Mi celular es un Samsung Galaxy S21 de color Negro.
+  Tiene 128GB de memoria y una cámara de 108MP.
+  Lo compré el 2024-09-08.
+Operando con 5 y 3
+La suma es: 8
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION3-M6/celular tech (master)
+$
